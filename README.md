@@ -1,5 +1,6 @@
 # WCBarcelona16 Demo
 WordPress theme - Single Page Application using AngularJS and the WP REST API.
+
 Talk title: "Desarrollo de temas con AngularJS y la WP REST API"
 
 ## 1. THEME Installation
