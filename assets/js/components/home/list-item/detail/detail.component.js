@@ -6,7 +6,7 @@ var detail = {
     controller: function() {
 
     },
-    templateUrl: 'wp-content/themes/wp_ng_spa/assets/js/components/home/list-item/detail/detail.component.html'
+    templateUrl: 'wp-content/themes/wcbcn/assets/js/components/home/list-item/detail/detail.component.html'
 };
 
 angular

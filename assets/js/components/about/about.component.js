@@ -2,7 +2,7 @@ var about = {
     bindings: {
         pageContent: '<'
     },
-    templateUrl: 'wp-content/themes/wp_ng_spa/assets/js/components/about/about.component.html',
+    templateUrl: 'wp-content/themes/wcbcn/assets/js/components/about/about.component.html',
     controller: function() {
 
     }

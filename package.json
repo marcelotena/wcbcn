@@ -1,5 +1,5 @@
 {
-  "name": "wp_ng_spa",
+  "name": "wcbcn",
   "version": "1.0.0",
   "description": "WordPress theme. Single Page Application using AngularJS and the WP REST API.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelotena/wcsantander16-demo.git"
+    "url": "git+https://github.com/marcelotena/wcbcn.git"
   },
   "keywords": [
     "WordPress",
@@ -19,9 +19,9 @@
   "author": "Marcelo Tena",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/marcelotena/wcsantander16-demo/issues"
+    "url": "https://github.com/marcelotena/wcbcn/issues"
   },
-  "homepage": "https://github.com/marcelotena/wcsantander16-demo#readme",
+  "homepage": "https://github.com/marcelotena/wcbcn#readme",
   "devDependencies": {
     "browser-sync": "^2.17.1",
     "gulp": "^3.9.1",

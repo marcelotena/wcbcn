@@ -1,5 +1,6 @@
-# WCSantander16 Demo
+# WCBarcelona16 Demo
 WordPress theme - Single Page Application using AngularJS and the WP REST API.
+Talk title: "Desarrollo de temas con AngularJS y la WP REST API"
 
 ## 1. THEME Installation
 
@@ -8,9 +9,7 @@ WordPress theme - Single Page Application using AngularJS and the WP REST API.
 
 1.1. Clone repository to your themes folder
 - Navigate to: ../wp-content/themes/ in your WordPress installation.
-- Execute: git clone https://github.com/marcelotena/wcsantander16-demo.git
-
-1.2. Rename folder "wcsantander16-demo" to "wp_ng_spa"
+- Execute: git clone https://github.com/marcelotena/wcbcn.git
 
 ## 2. DEV Installation
 
@@ -23,7 +22,7 @@ npm install --global gulp-cli
 
 2.1. Install theme following steps described in "1. THEME Installation"
 
-2.2. Download node_modules: Navigate to "wp_ng_spa" and execute:
+2.2. Download node_modules: Navigate to "wp-content/themes/wcbcn" and execute:
 ```
 npm install
 ```

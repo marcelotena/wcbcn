@@ -31,7 +31,7 @@ var thumbnail = {
 
 
     },
-    templateUrl: 'wp-content/themes/wp_ng_spa/assets/js/components/home/list-item/thumbnail/thumbnail.component.html'
+    templateUrl: 'wp-content/themes/wcbcn/assets/js/components/home/list-item/thumbnail/thumbnail.component.html'
 };
 
 

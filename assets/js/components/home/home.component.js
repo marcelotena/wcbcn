@@ -2,7 +2,7 @@ var home = {
     bindings: {
         list: '<'
     },
-    templateUrl: 'wp-content/themes/wp_ng_spa/assets/js/components/home/home.component.html',
+    templateUrl: 'wp-content/themes/wcbcn/assets/js/components/home/home.component.html',
     controller: function(SeriesService) {
         var ctrl = this;
         var currentPage = 2;
