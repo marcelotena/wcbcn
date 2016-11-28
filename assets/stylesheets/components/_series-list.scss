@@ -4,9 +4,9 @@
 }
 
 .series-list-item-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  display: block;
+  float: left;
 
   width: 100%;
   background: white;
@@ -17,10 +17,13 @@
 
 .series-list-item {
   display: block;
+  float: left;
+
+  height: 410px;
+  padding: 0;
 
   background: $color__background-row;
 
-  margin: 5px 0;
   transition: all ease-in-out 0.3s;
 
   &-active {
@@ -30,6 +33,10 @@
     .series-list-item-subtitle,
     .rating-value {
       color: white;
+    }
+
+    .rating-value {
+      color: $color__star-darkbg;
     }
 
     .star-rating-list-item {
@@ -43,21 +50,21 @@
 
 .series-list-item-title-container {
   float: left;
-  width: 60%;
+  width: 100%;
 }
 
 .series-list-item-title {
   display: block;
 
   margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 10px;
 }
 
 .series-list-item-subtitle {
   margin-top: 0;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 20px;
-
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
 }

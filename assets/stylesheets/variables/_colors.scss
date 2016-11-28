@@ -7,7 +7,7 @@ $color__background-pre        : #eee;
 $color__background-ins        : #fff9c0;
 $color__background-overlay    : rgba(63,81,181,.85);
 $color__background-footer     : #3C424C;
-$color__background-header     : #50555E;
+$color__background-header     : #0d113f;
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
@@ -16,7 +16,7 @@ $color__link: royalblue;
 $color__link-visited: purple;
 $color__link-hover: midnightblue;
 $color__text-main: #404040;
-$color__star-darkbg           : #FFC107;
+$color__star-darkbg           : darken(#FFC107, 2%);
 
 $color__border-button         : #ccc #ccc #bbb;
 $color__border-button-hover   : #ccc #bbb #aaa;
