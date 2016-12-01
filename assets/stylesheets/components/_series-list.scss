@@ -12,7 +12,11 @@
   background: white;
   transition: all 0.3s ease-in-out;
 
-  cursor: pointer;
+  a {
+    display: block;
+    float: left;
+    cursor: pointer;
+  }
 }
 
 .series-list-item {

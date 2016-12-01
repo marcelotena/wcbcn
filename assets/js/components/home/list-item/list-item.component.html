@@ -1,16 +1,16 @@
-<div class="series-list-item-header"
-     ng-class="{'series-list-item-active': $ctrl.activeItem.id === $ctrl.item.id}"
-     ng-click="$ctrl.selectItem($ctrl.item)">
+<div class="series-list-item-header">
 
-    <thumbnail omdb-query="$ctrl.item.title" featured-image-id="$ctrl.item.image"></thumbnail>
+    <a ui-sref="detail({ slug: $ctrl.item.slug })">
 
-    <div class="series-list-item-title-container">
-        <h3 class="series-list-item-title" ng-bind-html="$ctrl.item.title"></h3>
-        <actors omdb-query="$ctrl.item.title"></actors>
-    </div>
+        <thumbnail omdb-query="$ctrl.item.title" featured-image-id="$ctrl.item.image"></thumbnail>
 
-    <rating omdb-query="$ctrl.item.title"></rating>
+        <div class="series-list-item-title-container">
+            <h3 class="series-list-item-title" ng-bind-html="$ctrl.item.title"></h3>
+            <actors omdb-query="$ctrl.item.title"></actors>
+        </div>
+
+        <rating omdb-query="$ctrl.item.title"></rating>
+
+    </a>
 
 </div>
-
-<detail active-item="$ctrl.activeItem" item="$ctrl.item"></detail>

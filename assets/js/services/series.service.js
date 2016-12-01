@@ -33,6 +33,17 @@ function SeriesService($http) {
 
     }
 
+    function getSerieBySlug(slug) {
+
+        return $http
+            .get(API + '?filter[name]=' + slug)
+            .then(function (response) {
+                var totalPosts = response.headers('X-WP-Total');
+                return processSerie(response.data[0], totalPosts);
+            });
+
+    }
+
     function processSerie(item, totalPosts) {
 
         var processedItem;
@@ -90,6 +101,7 @@ function SeriesService($http) {
     return {
         getSeries           : getSeries,
         getSerie            : getSerie,
+        getSerieBySlug      : getSerieBySlug,
         getImageThumbnail   : getImageThumbnail
     }
 }
